@@ -1,5 +1,5 @@
 %%%% Modular approach to graphing
-%%%% THIS IS ADDED AS A GIT TEST
+
 
 clc; clear all;
 tic
