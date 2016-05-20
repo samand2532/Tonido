@@ -1,0 +1,14 @@
+function [ AnnConst, NewVect ] = AnnOp( Pos, InVect )
+%UNTITLED Summary of this function goes here
+%   Detailed explanation goes here
+OrigBasis = InVect;
+AnnVect = zeros(size(OrigBasis));
+AnnVect(1,Pos) = -1;
+NewVect = OrigBasis+AnnVect;
+if any (NewVect(1,:) < 0)
+    NewVect = zeros(size(OrigBasis));
+    AnnConst = 0;
+else AnnConst = sqrt(OrigBasis(1,Pos));
+end
+end
+

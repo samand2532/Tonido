@@ -1,0 +1,3 @@
+Have computed the matrix for LL2 basis, DO NOT DELETE MATRICES!!!!!!!
+
+use the commented out 17-23 to just re-multiply by A
