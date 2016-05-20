@@ -4,3 +4,7 @@ testesgfsgsd
 
 
 ALL THIS IS NEW
+
+
+
+This was added to test how commit, but not push looked. Then edited to see anything interesting
